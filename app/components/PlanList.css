@@ -1,3 +1,8 @@
+
+.plan-list-container {
+  width: 100%;
+}
+
 .plan-item input[type="radio"] {
   display: none;
 }
@@ -31,6 +36,12 @@
 
 @media screen and (max-width: 480px) {
  
+  .plan-list-container {
+    width: 90%; 
+    margin-bottom: 20px; 
+    margin-left: 5%;
+  }
+  
   .switch-container {
     justify-content: center;
     margin-bottom: 10px;
