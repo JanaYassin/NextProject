@@ -13,7 +13,7 @@ const plans = [
 
 const PlanList = ({ selectedPlan, onPlanChange, isMonthlyPlan }) => {
   return (
-    <div className="flex flex-col p-15 w-full sm:w-95 sm:mb-20 ">
+    <div className="flex flex-col p-15 w-full sm:w-5/6 sm:mb-20 ">
       {plans.map(plan => (
       <label
       key={plan.id}
