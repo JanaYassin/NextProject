@@ -37,14 +37,20 @@
 @media screen and (max-width: 480px) {
  
   .plan-list-container {
-    width: 90%; 
+    width: 95%; 
     margin-bottom: 20px; 
-    margin-left: 5%;
+    margin-left: 3%;
   }
-  
   .switch-container {
     justify-content: center;
     margin-bottom: 10px;
   }
-
+  .plan-name{
+    width:5%;
+    font-size:1px;
+  }
+  .plan-item .checkmark {
+    width: 20px;
+  }
+  
 }

@@ -30,7 +30,7 @@ const PlanList = ({ selectedPlan, onPlanChange, isMonthlyPlan }) => {
           />
           <span className="checkmark"></span>
           <div className="flex flex-1 items-center container">
-            <div className="text-2xl font-bold w-2/6 text-left">{plan.name}</div>
+            <div className="plan-name text-2xl font-bold w-3/6 text-left">{plan.name}</div>
            
             <DiscountBadge
               discount={plan.discount}
