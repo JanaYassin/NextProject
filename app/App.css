@@ -1,0 +1,15 @@
+.switch-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+@media screen and (max-width: 480px) {
+ .back-link {
+  display: none;
+}
+.switch-container {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+}
