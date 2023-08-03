@@ -61,7 +61,7 @@
 }
 
 .plan-details-table td input[type="radio"]:checked + label::before {
-  background-color: #a0e899;
+  background-color: red;
 }
 
 .plan-details-table td input[type="radio"] + label::after {
