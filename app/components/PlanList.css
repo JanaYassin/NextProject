@@ -30,6 +30,7 @@
 }
 
 @media screen and (max-width: 480px) {
+ 
   .switch-container {
     justify-content: center;
     margin-bottom: 10px;
