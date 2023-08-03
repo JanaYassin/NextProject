@@ -54,7 +54,7 @@
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  color: white;
+  /* color: white; */
   border: 1px solid #C1C1C1;
   border-radius: 50%;
   background-color: white;
