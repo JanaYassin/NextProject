@@ -22,8 +22,8 @@ const App = () => {
   return (
     <div className='text-center w-full min-h-screen bg-white sm:bg-white md:bg-white'>
       <div className='relative'>
-        <h1  className="text-5xl font-bold">Choose Your Plan</h1>
-        <div className='text-gray-500 text-xl'>No Contract and No Surprise Fees</div>
+        <h1  className="text-5xl font-bold text-blue-900">Choose Your Plan</h1>
+        <div className='text-slate-300 text-xl font-bold'>No Contract and No Surprise Fees</div>
         <div className='m-5 space-y-2'>
           <Switch isOn={isMonthlyPlan} handleToggle={handleTogglePlanType} />
         </div>

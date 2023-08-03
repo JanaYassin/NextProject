@@ -66,7 +66,7 @@ const PlanDetails = ({ selectedPlan, isMonthlyPlan }) => {
     <form>
       <table className="plan-details-table w-10/12 space-y-5 border-none md:w-50 md:font-base md:ml-neg-25 md:mb-20">
         <tr>
-          <th colSpan="2">
+          <th colSpan="2" className='bg-teal-500 text-white h-16 font-bold flex justify-between items-center'>
           <span style={{ marginLeft: '-10%' }}>Details</span>
             <span className='font-bold text-2xl space-x-48'>Fuse Plan</span>
           </th>

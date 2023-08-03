@@ -1,6 +1,6 @@
 import React from 'react';
 import './PlanList.css';
-// import '../globals.css';
+import '../globals.css';
 import DiscountBadge from './DiscountBadge';
 
 
@@ -17,8 +17,8 @@ const PlanList = ({ selectedPlan, onPlanChange, isMonthlyPlan }) => {
       {plans.map(plan => (
       <label
       key={plan.id}
-      className={`plan-item ml-0 sm:ml-20 w-full sm:w-4/5 flex items-center justify-between p-4 border border-teal-600 rounded-md mb-5 ${
-        selectedPlan === plan.id && !isMonthlyPlan ? 'bg-teal-600 text-black' : 'bg-white text-teal-600'
+      className={`plan-item ml-0 h-20 sm:ml-20 w-full sm:w-4/5 flex items-center justify-between p-4 border border-teal-600 rounded-md mb-5 ${
+        selectedPlan === plan.id && !isMonthlyPlan ? 'bg-teal-500 text-white' : 'bg-white text-black'
       }`}
     >
           <input

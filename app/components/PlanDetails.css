@@ -1,15 +1,6 @@
 .plan-details-table th {
-  background-color: #16A085;
-  color: white;
-  height: 60px;
   width: 143%;
-  font-weight: bold;
-  text-align: center;
-  border: none;
   border-radius: 10px 10px 0 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .plan-details-table th span {
@@ -21,7 +12,7 @@
 .plan-details-table td {
   text-align: center;
   padding: 10px;
-  height: 55px;
+  height: 62px;
   border: none;
 }
 
@@ -90,9 +81,9 @@
 
 @media screen and (max-width: 480px) {
   .plan-details-table {
-    width: 145%; 
+    width: 90%; 
     font-size: 14px; 
-    margin-left: 8%; 
+    margin-left: 4%; 
     margin-bottom: 10%;
   }
 
