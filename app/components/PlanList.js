@@ -17,7 +17,7 @@ const PlanList = ({ selectedPlan, onPlanChange, isMonthlyPlan }) => {
       {plans.map(plan => (
       <label
       key={plan.id}
-      className={`plan-item ml-0 h-20 sm:ml-20 w-full sm:w-3/4 flex items-center justify-between p-4 border border-teal-600 rounded-md mb-5 ${
+      className={`plan-item ml-0 h-20 sm:ml-20 w-full sm:w-3/5 flex items-center justify-between p-4 border border-teal-600 rounded-md mb-5 ${
         selectedPlan === plan.id && !isMonthlyPlan ? 'bg-teal-500 text-white' : 'bg-white text-black'
       }`}
     >
